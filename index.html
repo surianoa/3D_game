@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<script src='bower_components/threejs/build/three.js'></script>
+<script src="vendor/require.js/require.js"></script>
+<script src="vendor/three.js/examples/js/Detector.js"></script>
+<script src="vendor/threex.windowresize.js"></script>
+<script src="models/Scooter.js"></script>
+<style>
+    #graphicsbox {
+        height: 800px;
+        width: 1200px;
+        margin: 10px;
+        padding: 0px;
+        position: static; /* fixed or static */
+        top: 20px;
+        left: 20px;
+        text-align: center;
+    }
+</style>
+<body>
+<script src="main.js"></script>
+<h1>Balloon Pop!</h1>
+<p>
+    Can you pop 10 balloons without finding any bombs?
+
+<ul>
+    <li>There are 3 bombs amongst the balloons</li>
+    <li>Control the hovering SpikeScooter to pop balloons</li>
+    <li>If you hit a bomb, it's game over!</li>
+</ul>
+
+</p>
+
+<div id="graphicsbox"></div>
+<h2>Controls</h2>
+<p>
+    w = forward <br>
+    a = left <br>
+    s = back <br>
+    d = right <br>
+    z = down <br>
+    x = up <br>
+    q = rotate CW<br>
+    e = rotate CCW<br>
+</p>
+
+</body>
